@@ -1,11 +1,15 @@
 'use strict';
 
+exports.serverid = 'showdown';
+exports.serverName = 'Liga Naranja';
+exports.port = process.env.PORT || 3000;
+
 /**
  * The server port - the port to run Pokemon Showdown under
  *
  * @type {number}
  */
-exports.port = 8000;
+//exports.port = 8000;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
